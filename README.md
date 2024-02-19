@@ -19,7 +19,7 @@ This project is a Library Management System developed for Akbank Python BootCamp
    ```
 3. Run the program:
    ```sh
-   cd python lms.py
+   python lms.py
    ```
 
 ## Database Structure
