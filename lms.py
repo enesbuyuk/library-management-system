@@ -35,7 +35,7 @@ class Library:
     def remove_book(self):
         title_to_remove = input("Enter the book title to remove: ")
         self.file.seek(0)
-        lines = self.file.read().splitlines()
+        lines = self.file.read().splitlines(True)
         new_lines = [line for line in lines if title_to_remove.strip() != line.strip().split(",")[0]]
         self.file.seek(0)
         self.file.truncate()
